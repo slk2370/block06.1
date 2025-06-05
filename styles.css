@@ -1,0 +1,95 @@
+/* All */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+
+/* header */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 525px;
+}
+
+.brand {
+    margin: 10px 0px 0px 10px;
+    color:darkred;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav a {
+    margin: 0;
+    text-decoration: none;
+    width: 100px;
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/* Main body */
+main {
+    display: flex;
+    margin: 5px;
+}
+article {
+    padding-top: 5px;
+}
+
+article {
+    padding-top: 5px;
+}
+
+aside {
+    margin: 5px;
+    display: flex;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+aside li {
+    margin: 5px;
+    color: white;
+    padding: 10px;
+    width: 120px;
+    list-style-type: none;
+    background-color: darkred;
+    border-radius: 5px;
+}
+
+.testimonial {
+    font-style: italic;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+p {
+    margin: 10px;
+}
